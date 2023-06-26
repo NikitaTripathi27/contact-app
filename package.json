@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engine": {
+    "node": "v18.x.x",
+    "npm": "v9.x.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -36,4 +40,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }
+  
 }

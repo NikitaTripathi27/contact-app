@@ -1,4 +1,4 @@
-import React, {useEffect,useState} from 'react'
+
 import TextField from "@mui/material/TextField"
 import Button from "@mui/material/Button"
 import { useHistory } from 'react-router'
@@ -16,13 +16,13 @@ const Home:React.FC = () => {
         required
         variant="outlined"
         sx={{width:"70vmin" ,padding:"1rem"}}
-        placeholder="UserName"
+        placeholder="Username"
          />
         <br/>
         <TextField
         variant="outlined"
         sx={{width:"70vmin", padding:"1rem"}}
-        placeholder="Password" />
+        placeholder="password" />
         <br/>
         <Button variant="contained"
         type="submit">
